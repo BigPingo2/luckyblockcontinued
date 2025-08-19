@@ -2,7 +2,7 @@ pluginManagement {
     repositories {
         mavenCentral()
         gradlePluginPortal()
-        maven("https://maven.fabricmc.net")
+        maven("https://maven.neoforged.net/releases")
     }
 
     plugins {
@@ -22,3 +22,4 @@ include("tools")
 include("forge")
 include("fabric")
 //include("bedrock")
+include(":neoforge")
