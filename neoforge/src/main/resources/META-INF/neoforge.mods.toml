@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="Custom"
+
+[[mods]]
+modId="lucky"
+version="${version}"
+displayName="Lucky Block"
+authors="PlayerInDistress, AugPlat, Yannick Lamar, Thijmen Sprakel, dunios, ruukas"
+description='''Adds a block with random outcomes (NeoForge 1.21.1 port).'''
+
+[[dependencies.lucky]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+ordering="NONE"
+side="BOTH"
